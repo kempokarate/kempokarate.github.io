@@ -12,35 +12,37 @@
         content="https://media.kempokarate.se/2018/10/cropped-favicon_512_512-270x270.png" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="kkf.css">
 
     <script src="https://kit.fontawesome.com/b30050a61b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <img src="header.jpg" width="100%">
-    </header>
 
-    <div class="content">
-        <main>
-            <nav>
-                <menu>
-                    <li><a href="#instructors">Tränare</a></li>
-                    <li>/</li>
-                    <li><a href="#board">Styrelsen</a></li>
-                    <li>/</li>
-                    <li><a href="#values">Värdegrund</a></li>
-                    <li>/</li>
-                    <li><a href="#gdpr">GDPR</a></li>
-                </menu>
-            </nav>
-
-            <h1>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="header-title">
                 <span class="long">Dalby Kempo Karate Förening</span>
                 <span class="short">Dalby KKF</span>
             </h1>
+        </div>
+    </header>
 
+    <div class="content">
+        <nav>
+            <menu>
+                <li class="long"><a href="#instructors">Tränare</a></li>
+                <li class="long">/</li>
+                <li><a href="#board">Styrelsen</a></li>
+                <li>/</li>
+                <li><a href="#values">Värdegrund</a></li>
+                <li>/</li>
+                <li><a href="#gdpr">GDPR</a></li>
+            </menu>
+        </nav>
+
+        <main>
             <article>
                 <h2>Kempo karate</h2>
                 <p>
@@ -52,33 +54,16 @@
                     satsa fullt ut eller den som bara vill träna kampsport som motion.
                 </p>
 
-                <h3>Träningstider</h3>
                 <dl>
-                    <dt>Kempo karate (barn)</dt>
+                    <dt>Barn</dt>
                     <dd>Måndag och onsdag 17.30&ndash;18.30</dd>
 
-                    <dt>Kempo karate (ungdom)</dt>
+                    <dt>Ungdom</dt>
                     <dd>Måndag och onsdag 18.30&ndash;19.30</dd>
 
-                    <dt>Kempo karate (vuxen)</dt>
+                    <dt>Vuxen</dt>
                     <dd>Måndag och onsdag 19.30&ndash;20.30</dd>
-
-                    <dt>Fitness (från 15 år)</dt>
-                    <dd>Torsdag 18.30&ndash;19.30</dd>
-
-                    <dt>Öppen träning* (från 15 år)</dt>
-                    <dd>Söndag 11.00&ndash;12.30</dd>
                 </dl>
-
-                <p>
-                    <em>
-                        * Öppen träning betyder att du har tillgång till dojon och kan träna efter
-                        eget behag. Det finns instruktörer närvarande som kan assistera, men det är
-                        ingen lärarledd undervisning. Alltså ett perfekt tillfälle att finslipa
-                        tekniker i lugn och ro eller bara få ett extra träningspass för att komma i
-                        form. För att delta i den öppna träningen ska du vara minst 15 år.
-                    </em>
-                </p>
             </article>
 
             <article>
@@ -93,15 +78,32 @@
 
                 <p>
                     Passet är utanför ordinarie Kempo Karate träning och inriktar sig på spark- och
-                    slagträning. Inga förkunskaper krävs!
+                    slagträning. Här kan du använda de träningskläder du vill. Inga förkunskaper krävs!
                 </p>
 
                 <dl>
                     <dt>Tid</dt>
-                    <dd>Torsdagar 18.30&ndash;19.30 ht 22</dd>
+                    <dd>Torsdag 18.30&ndash;19.30</dd>
 
-                    <dt>Kläder</dt>
-                    <dd>Valfria träningskläder</dd>
+                    <dt>Åldersgräns</dt>
+                    <dd>15 år</dd>
+                </dl>
+            </article>
+
+            <article>
+                <h2>Öppen träning</h2>
+
+                <p>
+                    Öppen träning betyder att du har tillgång till dojon och kan träna efter
+                    eget behag. Det finns instruktörer närvarande som kan assistera, men det är
+                    ingen lärarledd undervisning. Alltså ett perfekt tillfälle att finslipa
+                    tekniker i lugn och ro eller bara få ett extra träningspass för att komma i
+                    form. För att delta i den öppna träningen ska du vara minst 15 år.
+                </p>
+
+                <dl>
+                    <dt>Tid</dt>
+                    <dd>Söndag 11.00&ndash;12.30</dd>
 
                     <dt>Åldersgräns</dt>
                     <dd>15 år</dd>
@@ -150,7 +152,7 @@
             </article>
 
             <article>
-                <h2 id="instructors">Våra tränare</h2>
+                <h2 id="instructors">Tränare</h2>
 
                 <h3>Kenneth Persson &mdash; Chefsinstruktör</h3>
                 <ul>
@@ -272,11 +274,17 @@
                 <dl class="contact">
                     <dt><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i></dt>
                     <dd>
-                        <a href="https://goo.gl/maps/neZKXhSVAK3CGTxc6">
-                            Kempo Karate-Föreningen<br>
-                            Pumpvägen 7<br>
-                            247 50 Dalby
+                        <a
+                            href="https://maps.apple.com/?address=Pumpv%C3%A4gen%207,%20247%2050%20Dalby,%20Sweden&auid=16194638309080583309&ll=55.660371,13.342072&lsp=9902&q=Kempo%20Karate">
+                            Apple maps
                         </a>
+                        /
+                        <a href="https://goo.gl/maps/neZKXhSVAK3CGTxc6">
+                            Google maps
+                        </a><br>
+                        Kempo Karate-Föreningen<br>
+                        Pumpvägen 7<br>
+                        247 50 Dalby<br>
                     </dd>
 
                     <dt><i class="fa-solid fa-at" style="color: #ffffff;"></i></dt>
@@ -288,6 +296,13 @@
                     <dd>
                         <a href="https://www.facebook.com/Kempo-Karate-Föreningen-586916481704058/">
                             Kempo Karate Föreningen
+                        </a>
+                    </dd>
+
+                    <dt><i class="fa-brands fa-tiktok" style="color: #ffffff;"></i></dt>
+                    <dd>
+                        <a href="https://www.tiktok.com/@kempokaratedalby?_t=8bGaJhG8lPR&_r=1">
+                            @kempokaratedalby
                         </a>
                     </dd>
                 </dl>
@@ -341,6 +356,13 @@
                         <dd>
                             <a href="https://www.facebook.com/Kempo-Karate-Föreningen-586916481704058/">
                                 Kempo Karate Föreningen
+                            </a>
+                        </dd>
+
+                        <dt><i class="fa-brands fa-tiktok" style="color: #ffffff;"></i></dt>
+                        <dd>
+                            <a href="https://www.tiktok.com/@kempokaratedalby?_t=8bGaJhG8lPR&_r=1">
+                                @kempokaratedalby
                             </a>
                         </dd>
                     </dl>
