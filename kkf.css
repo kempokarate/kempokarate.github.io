@@ -195,6 +195,10 @@ body>footer>div {
     font-size: small;
 }
 
+.social a {
+    text-decoration: none;
+}
+
 a {
     color: var(--primary-color);
 }
