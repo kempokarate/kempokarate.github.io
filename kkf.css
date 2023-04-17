@@ -1,9 +1,9 @@
 @import url('https://code.cdn.mozilla.net/fonts/fira.css');
 
 :root {
-    --main-background-color: #1e1e1e;
+    --main-background-color: #141414;
     --text-color: white;
-    --primary-color: hsl(0, 98%, 37%);
+    --primary-color: #E15151;
 }
 
 @media(max-width: 900px) {
