@@ -202,3 +202,22 @@ body>footer>div {
 a {
     color: var(--primary-color);
 }
+
+ol.agenda {
+    counter-reset: agenda-item;
+    padding-left: 0;
+}
+
+.agenda li {
+    position: relative;
+    display: block;
+    margin-left: 0px;
+    padding-left: 2.5em;
+}
+
+.agenda li:before {
+    position: absolute;
+    margin-left: -2.5em;
+    content: "§" counter(agenda-item) ". ";
+    counter-increment: agenda-item;
+}
