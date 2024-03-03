@@ -92,8 +92,6 @@ header img {
     }
 }
 
-main {}
-
 main menu {
     padding: 0em 4em;
 }
@@ -106,18 +104,9 @@ main article:first-child {
     margin-top: 0;
 }
 
-footer {
-    /* padding: 2em; */
-    /* text-align: center; */
-}
-
 dl {
     display: grid;
     grid-template-columns: fit-content(30ch) auto;
-}
-
-dt {
-    /* font-weight: bold; */
 }
 
 dt::after {
@@ -133,7 +122,6 @@ dd {
 }
 
 footer dl.contact a {
-    /* text-decoration: none; */
     color: var(--text-color);
 }
 
@@ -141,8 +129,6 @@ footer dl.contact a {
 em {
     font-size: smaller;
 }
-
-h1 {}
 
 h2 {
     font-size: xx-large;
