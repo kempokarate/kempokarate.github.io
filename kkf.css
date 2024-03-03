@@ -97,7 +97,7 @@ main menu {
 }
 
 main>article {
-    margin: 4em 0;
+    margin: 3em 0;
 }
 
 main article:first-child {
@@ -131,7 +131,6 @@ em {
 }
 
 h2 {
-    font-size: xx-large;
     color: var(--primary-color);
 }
 
