@@ -206,3 +206,15 @@ ol.agenda {
     content: "§" counter(agenda-item) ". ";
     counter-increment: agenda-item;
 }
+
+main > article.box:first-child {
+    margin-top: 3em;
+}
+
+article.box {
+    border: 2px dotted var(--text-color);
+    margin-top: 10em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
