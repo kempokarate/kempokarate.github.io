@@ -207,13 +207,14 @@ ol.agenda {
     counter-increment: agenda-item;
 }
 
-main > article.box:first-child {
+main > article.notice:first-child {
     margin-top: 3em;
 }
 
-article.box {
+article.notice {
+    display: none;
     border: 2px dotted var(--text-color);
-    margin-top: 10em;
+    margin-top: 1em;
     margin-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;
